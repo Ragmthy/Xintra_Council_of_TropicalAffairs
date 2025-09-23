@@ -525,7 +525,7 @@ It's from 11:57:20am on Feb 26 2025, that we can see certain doc files beginning
 
 Seeing as how from a command line perspective, it's only the doc file's path that is taken as a singular argument, we can somewhat interpret that the xbyssd binary has the intention to upload up that file into its Dropbox destination. Like so, let's look through the logs involving xbyssd.exe to see what files were targeted in a similar manner. 
 
-1. 'C:\Packages\Plugins\nt'
+1. 'C:\Packages\Plugins\nt' --> The directory seen previously from Pacific Passwords
 2. 'C:\Packages\Plugins\sys'
 3. 'field trip - the big mango.docx'
 4. 'Golden_Sunrise_Mango_Development.docx'
@@ -542,3 +542,4 @@ This command gives a hint at the true number of files that the threat actor had 
 ![image](lab_qns_images/67_current_directory_of_rar.jpg)
 
 And that concludes the entire attack conducted on the Council of Tropical Affairs. Looking at the logs after the timestamp at which eeroge.rar was created, it was not feasible to see if the zip file had indeed left the victim system, or if the threat actor was happy with the copies they might have gotten with the commands that were executed with the xbyssd.exe disguised as Uploader.exe. 
+
