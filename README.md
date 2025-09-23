@@ -11,12 +11,10 @@ Full innovation credits for this lab goes to [XINTRA's team](https://www.xintra.
 More information about the labs can be found [here](https://www.xintra.org/labs).
 
 ## Repo:
-This time around, I've uploaded the walkthrough as one [singular scroll]() 📜 It can be read entirely here.
+This time around, I've uploaded the walkthrough as one [singular scroll](https://github.com/Ragmthy/Xintra_Council_of_TropicalAffairs/blob/main/CoTA%20Lab%20Walkthrough%20-%20Complete.md) 📜 It can be read entirely here.
 
 ### Extra Resources that helped along the way:
-1. Understanding of [LNK files](https://belkasoft.com/forensic-analysis-of-lnk-files)
-2. Deeper dive about the MFTECmd and [timestomping concept](https://www.youtube.com/watch?v=_qElVZJqlGY&t=860s)
-3. Location of [Powershell Transcipt artifacts](https://www.magnetforensics.com/blog/the-importance-of-powershell-logs-in-digital-forensics/)
-4. Understanding [Linux-based artifacts](https://trustedsec.com/blog/incident-response-bring-out-the-body-file)
-5. VirusTotal for [deciphering out values](https://www.virustotal.com/gui/home/upload)
-6. Another Airbuzzed [WriteUp](https://mashtitle.com/2025/06/09/airbuzzed-write-up) for teaching a stellar trick ~
+1. 13Cubed's videos on [MACB timestamps in Windows](https://www.youtube.com/watch?v=OTea54BelTg&t=1s), and their [respective 0x10 and 0x30 variants](https://www.youtube.com/watch?v=_qElVZJqlGY&t=844s)
+2. A really useful resource on [Windows Security Event Logs and all their meanings](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx?i=j)
+3. An explainer blog on Windows Management Instrumentation and [how it can be abused](https://www.varonis.com/blog/wmi-windows-management-instrumentation)
+4. A Write-Up by the lab's creator about [understanding pipes and their involvement in C2 activity](https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575)
