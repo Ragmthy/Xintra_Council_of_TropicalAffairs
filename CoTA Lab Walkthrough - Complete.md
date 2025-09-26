@@ -537,9 +537,8 @@ That takes place on Feb 26 2025 at 13:02:00 hours. The process.command_line valu
 
 Broken down, this command runs the Windows Command shell once, which then calls WinRAR's command-line tool rar.exe, make an archive due to the 'a' flag called 'eeroge.rar' and add all the *.docx files that are sitting in the drive Q: . 
 
-This command gives a hint at the true number of files that the threat actor had exfiltrated out. Seeing that the extension of the files they were keen on is strictly `.docx`, there were a total of five files that were pulled into the Q: drive. And likely, those were the files that got collected and archived as eeroge.rar. That archive's full path was:
+This command gives a hint at the true number of files that the threat actor had exfiltrated out. For making the archive, the extension of the files they were keen on is strictly `.docx`. But altogether, there were a total of five files that were pulled into the Q: drive. And likely, those were the files that got collected and archived as eeroge.rar. That archive's full path was:
 
 ![image](lab_qns_images/67_current_directory_of_rar.jpg)
 
 And that concludes the entire attack conducted on the Council of Tropical Affairs. Looking at the logs after the timestamp at which eeroge.rar was created, it was not feasible to see if the zip file had indeed left the victim system, or if the threat actor was happy with the copies they might have gotten with the commands that were executed with the xbyssd.exe disguised as Uploader.exe. 
-
